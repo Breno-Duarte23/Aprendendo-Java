@@ -27,7 +27,7 @@ public class Ex03EstruturaCondicional {
 		} else {
 			System.out.println("Ímpar");
 		}
-*/		
+		
 		//Ex 03 Nelio:
 		int num1, num2;
 		System.out.println("Digite 2 valores inteiros");
@@ -40,6 +40,9 @@ public class Ex03EstruturaCondicional {
 		} else {
 			System.out.println("Não são múltiplos");
 		}
+*/
+		//Ex 04 Nelio:
+		
 		
 		sc.close();
 	}
