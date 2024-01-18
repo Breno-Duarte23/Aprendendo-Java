@@ -6,7 +6,7 @@ public class Ex03EstruturaCondicional {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-
+/*
 		// Ex 01 Nelio:
 		int numPositivo;
 		System.out.println("Digite um número inteiro");
@@ -82,6 +82,75 @@ public class Ex03EstruturaCondicional {
 		}
 		System.out.printf("Total: %.2f", valorTotal);
 
+		// Ex 06 Nelio:
+		System.out.println("Digite um valor de 0 até 100");
+		double valorUsuario = sc.nextDouble(); 
+		if(valorUsuario >= 0 && valorUsuario <= 25.0) {
+			System.out.println("Intervalo (0, 25)");
+		}
+		else if(valorUsuario > 25.00 || valorUsuario <= 50.0){
+			System.out.println("Intervalo (25, 50)");
+		}
+		else if(valorUsuario > 50 || valorUsuario <= 75.0){
+			System.out.println("Intervalo (50, 75)");
+		}
+		else if(valorUsuario > 75 || valorUsuario <= 100.0){
+			System.out.println("Intervalo (75, 100)");
+		} 
+		else {
+			System.out.println("Valor fora do intervalo");
+		}
+
+		// Ex 07 Nelio:
+		System.out.println("Digite x e y");
+		double x = sc.nextDouble();
+		double y = sc.nextDouble();
+		if (x == 0 && y == 0) {
+			System.out.println("Origem");
+		}
+		else if(x == 0) {
+			System.out.println("Eixo X");
+		}
+		else if(y == 0) {
+			System.out.println("Eixo y");
+		} 
+		else if(x < 0 && y <0){
+			System.out.println("Q2");
+		}
+		else if(x > 0 && y > 0){
+			System.out.println("Q1");
+		}
+		else if(x < 0 && y < 0) {
+			System.out.println("Q3");
+		}
+		else {
+			System.out.println("Q4");
+		}
+		
+		// Ex 08 Nelio:
+		double salario = sc.nextDouble();
+		
+		double imposto;
+		if (salario <= 2000.0) {
+			imposto = 0.0;
+		}
+		else if (salario <= 3000.0) {
+			imposto = (salario - 2000.0) * 0.08;
+		}
+		else if (salario <= 4500.0) {
+			imposto = (salario - 3000.0) * 0.18 + 1000.0 * 0.08;
+		}
+		else {
+			imposto = (salario - 4500.0) * 0.28 + 1500.0 * 0.18 + 1000.0 * 0.08;
+		}
+
+		if (imposto == 0.0) {
+			System.out.println("Isento");
+		}
+		else {
+			System.out.printf("R$ %.2f%n", imposto);
+		}
+*/
 		sc.close();
 	}
 
