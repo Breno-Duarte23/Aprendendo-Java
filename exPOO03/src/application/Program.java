@@ -11,7 +11,7 @@ public class Program {
 		//utilizando as bibliotecas importadas
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		//Linkando o programa com o pacote entidades.
+		//instanciando objetos.
 		Students student = new Students();
 			
 		int verify = 0;
