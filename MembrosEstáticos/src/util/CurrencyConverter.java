@@ -1,14 +1,10 @@
 package util;
 
 public class CurrencyConverter {
-	public static double dollarPrice;
-	public static double dollarBought;
-	//Métodos
-	public static double iof() {
-		return dollarBought += 6 * 100 / dollarBought;
-	}
 	
-	public  static double converter() {
-		return dollarBought * dollarPrice;
+	public static double IOF = 0.06;
+	
+	public static double dollarToReal(double amount, double dollarPrice) {
+		return amount * dollarPrice * (1.0 + IOF);
 	}
 }
